@@ -35,16 +35,3 @@
     let PascalCasing; // For Class
     let snake_casing; // For Variables
     let SCREAMING_SNAKE_CASING; // For Constants
-
-
-    let PascalCase
-    let camelCase
-    let snake_case
-    let kebab-case
-    let flatcase
-    let UPPERFLATCASE
-    let Pascal_Snake_Case
-    let camel_Snake_Case
-    let SCREAMING_SNAKE_CASE
-    let Train-Case
-    let COBOL-CASE

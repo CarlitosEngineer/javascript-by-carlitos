@@ -6,7 +6,7 @@
 
 -   se utilizará la guía de estudio de roadmap como "ORDEN" de estudio. Como una, guía para establecer el orden de estudio para aprender JavaScript y no como contenido didáctico para enseñar. Todo el contenido para enseñar es de mi propia creación y autoría.
 
--   en la carpeta "base". Voy a resolver problemas de programación. Se  utilizará contenido comunitario de terceros, youtuber, plataformas, repositorios, etc. así que por respeto a los autores originales o para no perder el Hilo de donde encontré la información. Al final de cada ejercicio voy a poner las fuentes, recursos y bibliografías que use para encontrar y resolver esos ejercicios. Yo no creo los ejercicios, solo los resuelvo.
+-   en la carpeta "base". Voy a resolver problemas de programación. Se utilizará contenido comunitario de terceros, youtuber, plataformas, repositorios, etc. así que por respeto a los autores originales o para no perder el Hilo de donde encontré la información. Al final de cada ejercicio voy a poner las fuentes, recursos y bibliografías que use para encontrar y resolver esos ejercicios. Yo no creo los ejercicios, solo los resuelvo.
 
 # Objetivo General
 
@@ -34,11 +34,17 @@
 
 # LISTA DE EJERCICIOS EN LA CARPETA "base"
 
-| Número # |          Título           |     Descripción     |
+# LIST OF EXERCISES
+
+| Number # |          Title           |     Description     |
 | :------: | :-----------------------: | :-----------------: |
-|    1     |       Hello, World!       |    Hello, World!    |
-|    2     | Lucian's Luscious Lasagna | preparation lasagna |
-|    3     |  Annalyn's Infiltration   | Scape with Annalyn  |
+|    1     | Hello World | Hello, World! |
+|    2     | Lucian's Luscious Lasagna |  |
+|    3     | Annalyn's Infiltration |  |
+|    4     | Freelancer Rates |  |
+|    5     | Poetry Club Door Policy |  |
+|    6     | Elyses Enchantments |  |
+|    7     | Vehicle Purchase |  |
 
 # Bibliografía
 
@@ -47,3 +53,4 @@
 -   Enlace para acceder a mi progreso en RoadMaps [¡Enlace!](https://roadmap.sh/javascript?s=664e7e5fd6b907c7f7638e17)
 
 # Fin
+

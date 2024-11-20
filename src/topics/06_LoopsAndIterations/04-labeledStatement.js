@@ -6,7 +6,7 @@
         una instrucción en el código.
 **/
 
-instrucción
+etiqueta: instrucción
 
 /**
 

@@ -4,11 +4,11 @@
                 1.1 Var
                 1.2 let
                 1.3 Const
-    
-    Can create a variable with 3 types var, let, const
-
 **/
 
-var varName1 = "";
-let varName2 = "calderon";
-const varName3 = "Barrios";
+// can create a variable with 3 types var, let, const
+
+var     name1 = "carlos";
+let     name2 = "caldeorn";
+const   name3 = "Barrios";
+
