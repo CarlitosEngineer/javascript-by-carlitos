@@ -1,56 +1,263 @@
 # Resumen
 
--   Este repositorio fue creado con la intención de facilitar la comprensión del lenguaje de programación JavaScript.
+Borrador de mi para aprender javascript
 
-# IMPORTANTE ACLARAR!
+Lista de temas y sub temas para javascript
 
--   se utilizará la guía de estudio de roadmap como "ORDEN" de estudio. Como una, guía para establecer el orden de estudio para aprender JavaScript y no como contenido didáctico para enseñar. Todo el contenido para enseñar es de mi propia creación y autoría.
+Capitulo 1; Introduccion a ajvascript
 
--   en la carpeta "base". Voy a resolver problemas de programación. Se utilizará contenido comunitario de terceros, youtuber, plataformas, repositorios, etc. así que por respeto a los autores originales o para no perder el Hilo de donde encontré la información. Al final de cada ejercicio voy a poner las fuentes, recursos y bibliografías que use para encontrar y resolver esos ejercicios. Yo no creo los ejercicios, solo los resuelvo.
+    + Que es javascript
 
-# Objetivo General
+    + Historia de javascript
 
--   Aprender a programar con JavaScript
+    + Veriones de javascript
 
-# Objetivos Específicos
+    + Como ejecutar javascript
 
--   Recorrer cada uno de los elementos del camino de programación. (note: relativamente necesarios, no todos son del lenguaje JavaScript)
+Capitulo 2; Todo sobre las varaibles
 
--   Crear ejemplos, guías y notas para cada uno de los elementos tratados.
+    + Declaracion de variables
 
--   Resolver ejercicios de programación propuestos por la comunidad o por terceros.
+        - var
 
-# Metodología
+        - let
 
--   Como solución propuesta para el obj. esp. 1 (Simplemente publicar el progreso del roadmap en PDF o imagen).
+        - const
 
--   Como solución propuesta para el obj. esp. 2 (Se resolverá en la subcarpeta "javascript").
+    + Hoisting
 
--   Como solución propuesta para el obj. esp. 3 (Se resolverá en la subcarpeta "base". Quiero realizar este objetivo específico bajo un formato de solución y creo que debería ser así).
+    + Variable Naming Rules
 
-    -   Requisitos
-    -   Diagrama de flujo (Opcional)
-    -   Código
+    + Variable Scopes
 
-# LISTA DE EJERCICIOS EN LA CARPETA "base"
+Capitulo 3: Data Types
 
-# LIST OF EXERCISES
+    + Object
 
-| Number # |          Title           |     Description     |
-| :------: | :-----------------------: | :-----------------: |
-|    1     | Hello World | Hello, World! |
-|    2     | Lucian's Luscious Lasagna |  |
-|    3     | Annalyn's Infiltration |  |
-|    4     | Freelancer Rates |  |
-|    5     | Poetry Club Door Policy |  |
-|    6     | Elyses Enchantments |  |
-|    7     | Vehicle Purchase |  |
+        - Built-in Objetcs
 
-# Bibliografía
+        - Prototypal Inheritance
 
--   Enlace para ver JavaScript en RoadMaps [¡Enlace!](https://roadmap.sh/javascript)
+        - Object Prototype
 
--   Enlace para acceder a mi progreso en RoadMaps [¡Enlace!](https://roadmap.sh/javascript?s=664e7e5fd6b907c7f7638e17)
+    + Type of Operator
 
-# Fin
+    + Primitive Types
+    
+        - String
 
+        - Undefined
+
+        - Number
+
+        - Bigint
+
+        - Boolean
+
+        - Null
+
+        - Symbol
+
+    + Type Casting
+
+        - Type Conversion VS Coercion
+
+        - Implicit Type Casting
+
+        - Explicit Type Casting
+
+    + Data Sctructures
+
+        - Indexed Collections
+
+            * Typed Arrays
+
+            * Arrays
+
+        - keyed Collections
+
+            * Map
+
+            * Weak Map
+
+            * Set
+
+            * Weak Set
+
+        - Structured Data
+
+            * JSON
+
+    + Equality Comparisons
+
+        - Value Comparison Operators
+
+            * ==
+
+            * ===
+
+            * Object.is
+
+        - Equality Algorithms
+
+            * IsLooselyEqual
+
+            * IsStrictlyEqual
+
+            * SameValueZero
+
+            * SameValue
+
+    + Loops and Iterations
+
+        - While
+        
+            * Do...While
+
+            * For
+
+        - For...in Loop
+
+            * For...Of Loop
+
+            * Break / Continue
+
+    + Control Flow
+
+        - Conditional Statements
+
+            * If...else
+
+            * Switch
+
+        - Exceptional Handling
+
+            * Throw Statements
+
+            * Try / Catch / Finally
+
+        - Error Objects
+
+    + Expressions & Operators
+
+        - Conditionals Operators
+
+        - Comma Operators
+
+        - Assignment Operators
+
+        - Arithmetic Operators
+
+        - Bitwise Operators
+
+        - Logical Operators
+
+        - Bigint Operators
+
+        - String Operators
+
+    + Functions
+
+        - Function Parameters
+
+            * Default Params
+
+            * Rest
+
+        - Arrow Functons
+
+        - IIFEs
+
+        - Arguments Objets
+
+        - Scope & Functions Stack
+
+            * Recursion
+
+            * Lexical Scoping
+
+            * Closures
+
+        - Built-in Functions
+
+    + DOM APIs
+
+    + Strict Mode
+
+    + Using (This) Keyword
+
+        - In a method
+
+        - In a function
+
+        - Using it Alone
+
+        - In Event Handlers
+
+        - In Arrow Functions
+
+    + Asynchronous JavaScript
+
+        - SetTimeOut
+
+        - SetInterval
+
+        - Event Loop
+
+        - CallBacks
+
+            * Callback Hell
+
+        - Promises
+
+            - Async / Await
+
+    + Working With APIs
+
+        - Fetch
+
+        - XMLHTTPRequest
+
+    + Classes
+
+    + Iterators and Generators
+
+    + Modules In JavaScript
+
+        - ESM
+
+        - CommonJs
+
+    + Memory Management
+
+        - Memory LifeCycle
+
+        - Garbage Collection
+
+    + Using Browser DevTools
+
+        - Debugging Issues
+
+        - Debugging Memory Leaks
+
+        - Debugging Performance
+
+Capitulo :
+
+
+Capitulo :
+
+
+Capitulo :
+
+
+Capitulo :
+
+
+Capitulo :
+
+
+Capitulo :
+
+
+Capitulo :
