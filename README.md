@@ -1,65 +1,34 @@
-# Roadmap para aprender JavaScript
 
-Este documento es un borrador para estructurar los temas esenciales al aprender JavaScript. Incluye conceptos básicos, intermedios y avanzados, organizados en capítulos para facilitar su aprendizaje.
 
----
 
-## Propósito del Roadmap
-
-Este roadmap está diseñado para principiantes que deseen aprender JavaScript desde cero, así como para desarrolladores que buscan reforzar conceptos intermedios y avanzados.
 
 ---
 
-## Índice
+# **JavaScript Roadmap**
 
-1. [Introducción a JavaScript](#introducción-a-javascript)  
-2. [Variables en JavaScript](#variables-en-javascript)  
-3. [Tipos de Datos](#tipos-de-datos)  
-4. [Conversión de Tipos](#conversión-de-tipos)  
-5. [Estructuras de Datos](#estructuras-de-datos)  
-6. [Comparaciones de Igualdad](#comparaciones-de-igualdad)  
-7. [Bucles e Iteraciones](#bucles-e-iteraciones)  
-8. [Flujo de Control](#flujo-de-control)  
-9. [Expresiones y Operadores](#expresiones-y-operadores)  
-10. [Funciones](#funciones)  
-11. [DOM y APIs](#dom-y-apis)  
-12. [Modo Estricto](#modo-estricto)  
-13. [Uso del Keyword `this`](#uso-del-keyword-this)  
-14. [JavaScript Asíncrono](#javascript-asíncrono)  
-15. [Trabajando con APIs](#trabajando-con-apis)  
-16. [Clases](#clases)  
-17. [Iteradores y Generadores](#iteradores-y-generadores)  
-18. [Módulos en JavaScript](#módulos-en-javascript)  
-19. [Gestión de Memoria](#gestión-de-memoria)  
-20. [Herramientas para Desarrolladores en el Navegador](#herramientas-para-desarrolladores-en-el-navegador)
+### 1. Introduction to JavaScript (Introducción a JavaScript)
 
----
+- What is JavaScript? (¿Qué es JavaScript?)
+- History of JavaScript (Historia de JavaScript)
+- JavaScript Versions (Versiones de JavaScript)
+- How to Run JavaScript (Cómo ejecutar JavaScript)
 
-## Detalles de cada capítulo
+### 2. Variables in JavaScript (Variables en JavaScript)
 
-### 1. Introducción a JavaScript (Introduction to JavaScript)
-
-- ¿Qué es JavaScript? (What is JavaScript?)
-- Historia de JavaScript (History of JavaScript)
-- Versiones de JavaScript (JavaScript Versions)
-- Cómo ejecutar JavaScript (How to Run JavaScript)
-
-### 2. Variables en JavaScript (Variables in JavaScript)
-
-- Declaración de variables: (Variable Declaration)
+- Variable Declarations (Declaración de variables):
   - `var`
   - `let`
   - `const`
-- Hoisting
-- Reglas para nombrar variables (Rules for Naming Variables)
-- Ámbito de las variables: (Variable Scope)
-  - Block
-  - Function
-  - Global
+- Hoisting (Elevación)
+- Variable Naming Rules (Reglas de nombres de variables)
+- Variable Scope (Ámbito de variables):
+  - Block (Bloque)
+  - Function (Función)
+  - Global (Global)
 
-### 3. Tipos de Datos (Data Types)
+### 3. Data Types (Tipos de datos)
 
-- Tipos primitivos: (Primitive Types)
+- Primitive Types (Tipos primitivos):
   - `String`
   - `Undefined`
   - `Number`
@@ -67,139 +36,134 @@ Este roadmap está diseñado para principiantes que deseen aprender JavaScript d
   - `Boolean`
   - `Null`
   - `Symbol`
-- Tipos no primitivos: (Non-Primitive Types)
-  - Objetos (Objects)
-    - Objetos integrados (Built-in Objects)
-    - Herencia prototípica (Prototypal Inheritance)
-    - Prototipos de objetos (Object Prototypes)
-- Operador `typeof` (`typeof` Operator)
+- Objects (Objetos)
+  - Built-in Objects (Objetos incorporados)
+  - Prototypal Inheritance (Herencia prototipal)
+  - Object Prototypes (Prototipos de objetos)
+- `typeof` Operator (Operador `typeof`)
 
-### 4. Conversión de Tipos (Type Conversion)
+### 4. Type Casting (Conversión de tipos)
 
-- Diferencia entre conversión y coerción (Difference Between Conversion and Coercion)
-- Tipos de conversión: (Types of Conversion)
-  - Implícita (Implicit)
-  - Explícita (Explicit)
+- Type Conversion vs Coercion (Conversión de tipos vs Coerción)
+- Implicit Type Casting (Conversión implícita de tipos)
+- Explicit Type Casting (Conversión explícita de tipos)
 
-### 5. Estructuras de Datos (Data Structures)
+### 5. Data Structures (Estructuras de datos)
 
-- Colecciones indexadas: (Indexed Collections)
-  - Arrays
-  - Typed Arrays
-- Colecciones clave-valor: (Key-Value Collections)
+- Indexed Collections (Colecciones indexadas):
+  - Arrays (Arreglos)
+  - Typed Arrays (Arreglos tipados)
+- Keyed Collections (Colecciones con clave):
   - `Map`
   - `WeakMap`
   - `Set`
   - `WeakSet`
-- Datos estructurados: (Structured Data)
+- Structured Data (Datos estructurados):
   - JSON
 
-### 6. Comparaciones de Igualdad (Equality Comparisons)
+### 6. Equality Comparisons (Comparaciones de igualdad)
 
-- Operadores de comparación de valores: (Value Comparison Operators)
+- Value Comparison Operators (Operadores de comparación de valores):
   - `==`
   - `===`
   - `Object.is`
-- Algoritmos de igualdad: (Equality Algorithms)
+- Equality Algorithms (Algoritmos de igualdad):
   - `IsLooselyEqual`
   - `IsStrictlyEqual`
   - `SameValueZero`
   - `SameValue`
 
-### 7. Bucles e Iteraciones (Loops and Iterations)
+### 7. Loops and Iterations (Bucles e iteraciones)
 
-- `while` y `do...while`
-- `for` y `for...in`
-- `for...of`
-- Uso de `break` y `continue` (Using `break` and `continue`)
+- `while` , `do...while` , `for`
+- `for...in` , `for...of` , `break` / `continue`
 
-### 8. Flujo de Control (Control Flow)
+### 8. Control Flow (Flujo de control)
 
-- Declaraciones condicionales: (Conditional Statements)
+- Conditional Statements (Sentencias condicionales):
   - `if...else`
   - `switch`
-- Manejo de excepciones: (Exception Handling)
-  - `throw`
-  - `try...catch...finally`
-- Objetos de error (Error Objects)
+- Exception Handling (Manejo de excepciones):
+  - `throw` statement (Sentencia `throw`)
+  - `try, catch, finally`
+  - Error Objects (Objetos de error)
 
-### 9. Expresiones y Operadores (Expressions and Operators)
+### 9. Expressions and Operators (Expresiones y operadores)
 
-- Operadores condicionales (Conditional Operators)
-- Operadores de coma (Comma Operators)
-- Operadores unarios (Unary Operators)
-- Operadores de asignación (Assignment Operators)
-- Operadores de comparación (Comparison Operators)
-- Operadores aritméticos (Arithmetic Operators)
-- Operadores bit a bit (Bitwise Operators)
-- Operadores lógicos (Logical Operators)
-- Operadores para BigInt (BigInt Operators)
-- Operadores de cadenas (String Operators)
+- Conditional Operators (Operadores condicionales)
+- Comma Operators (Operadores de coma)
+- Unary Operators (Operadores unarios)
+- Assignment Operators (Operadores de asignación)
+- Comparison Operators (Operadores de comparación)
+- Arithmetic Operators (Operadores aritméticos)
+- Bitwise Operators (Operadores bit a bit)
+- Logical Operators (Operadores lógicos)
+- BigInt Operators (Operadores de `BigInt`)
+- String Operators (Operadores de cadena)
 
-### 10. Funciones (Functions)
+### 10. Functions (Funciones)
 
-- Parámetros de funciones: (Function Parameters)
-  - Valores predeterminados (Default Values)
-  - Parámetros Rest (Rest Parameters)
-- Arrow functions
-- IIFEs (Funciones inmediatamente invocadas) (Immediately Invoked Function Expressions)
-- Objeto `arguments` (`arguments` Object)
-- Ámbito y pila de funciones: (Function Scope and Stack)
-  - Recursión (Recursion)
-  - Ámbito léxico (Lexical Scope)
-  - Closures
-- Funciones integradas (Built-in Functions)
+- Function Parameters (Parámetros de función):
+  - Default Values (Valores por defecto)
+  - Rest Parameters (Parámetros rest)
+- Arrow Functions (Funciones flecha)
+- IIFEs (Funciones inmediatamente invocadas)
+- `arguments` Object (Objeto `arguments`)
+- Scope & Function Stack (Ámbito y pila de funciones):
+  - Recursion (Recursión)
+  - Lexical Scope (Ámbito léxico)
+  - Closures (Clausuras)
+- Built-in Functions (Funciones incorporadas)
 
-### 11. DOM y APIs (DOM and APIs)
+### 11. DOM APIs (APIs del DOM)
 
-- Introducción a las APIs del DOM (Introduction to DOM APIs)
+### 12. Strict Mode (Modo estricto)
 
-### 12. Modo Estricto (Strict Mode)
+### 13. Using `this` Keyword (Uso de la palabra clave `this`)
 
-- Ventajas y restricciones del modo estricto (Advantages and Restrictions of Strict Mode)
+- in a Method (En un método)
+- in a Function (En una función)
+- Using it alone (Usándolo solo)
+- in Event Handlers (En manejadores de eventos)
+- in Arrow Functions (En funciones flecha)
+- Function Borrowing (Préstamo de funciones)
+- Explicit Binding (Vinculación explícita)
+  - `call`
+  - `apply`
+  - `bind`
 
-### 13. Uso del Keyword `this` (Using the `this` Keyword)
+### 14. Asynchronous JavaScript (JavaScript asíncrono)
 
-- Uso en un método (Usage in a Method)
-- Uso en una función (Usage in a Function)
-- Uso de `this` solo (en un contexto global o vacío) (Usage of `this` Alone in Global or Empty Context)
-- Uso en manejadores de eventos (Usage in Event Handlers)
-- Uso en arrow functions (Usage in Arrow Functions)
-
-### 14. JavaScript Asíncrono (Asynchronous JavaScript)
-
-- `setTimeout` y `setInterval`
-- Event Loop
-- Callbacks y callback hell
-- Promesas: (Promises)
+- `setTimeout` and `setInterval`
+- Event Loop (Bucle de eventos)
+- Callbacks (Funciones de retorno):
+  - Callback Hell (Infierno de callbacks)
+- Promises (Promesas):
   - `async/await`
 
-### 15. Trabajando con APIs (Working with APIs)
+### 15. Working with APIs (Trabajo con APIs)
 
-- Uso de `fetch` (Using `fetch`)
-- Uso de `XMLHTTPRequest` (Using `XMLHTTPRequest`)
+- Using `fetch` (Uso de `fetch`)
+- Using `XMLHTTPRequest` (Uso de `XMLHTTPRequest`)
 
-### 16. Clases (Classes)
+### 16. Classes (Clases)
 
-- Introducción a las clases (Introduction to Classes)
+### 17. Iterators and Generators (Iteradores y generadores)
 
-### 17. Iteradores y Generadores (Iterators and Generators)
+### 18. Modules in JavaScript (Módulos en JavaScript)
 
-- Uso y creación de iteradores y generadores (Using and Creating Iterators and Generators)
-
-### 18. Módulos en JavaScript (JavaScript Modules)
-
-- ECMAScript Modules (ESM)
+- ECMAScript Modules (Módulos de ECMAScript)
 - CommonJS
 
-### 19. Gestión de Memoria (Memory Management)
+### 19. Memory Management (Gestión de memoria)
 
-- Ciclo de vida de la memoria (Memory Lifecycle)
-- Recolección de basura (Garbage Collection)
+- Memory Lifecycle (Ciclo de vida de la memoria)
+- Garbage Collection (Recolección de basura)
 
-### 20. Herramientas para Desarrolladores en el Navegador (Developer Tools in the Browser)
+### 20. Using Browser DevTools (Herramientas de desarrollo en el navegador)
 
-- Depuración de problemas (Debugging Issues)
-- Depuración de fugas de memoria (Debugging Memory Leaks)
-- Optimización del rendimiento (Performance Optimization)
+- Debugging Issues (Depuración de problemas)
+- Debugging Memory Leaks (Depuración de fugas de memoria)
+- Performance Optimization (Optimización del rendimiento)
 
+---
