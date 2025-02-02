@@ -1,6 +1,8 @@
 
 # **Carlitos Learning JavaScript**
 
+![Logo del proyecto](img01.png)
+
 ## 📌 **Descripción**
 
 Este repositorio contiene todo el material que he desarrollado mientras aprendo JavaScript. Aquí encontrarás Ejemplos de código y proyectos prácticos. Y proyectos que refuerzan los conceptos clave del lenguaje.
