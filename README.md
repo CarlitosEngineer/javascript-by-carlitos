@@ -1,7 +1,7 @@
 
 # **Carlitos Learning JavaScript**
 
-![Logo del proyecto](/img01.png)
+![Logo del proyecto](/img01.webp)
 
 ## 📌 **Descripción**
 
