@@ -1,7 +1,10 @@
 
 # **Carlitos Learning JavaScript**
 
-![Logo del proyecto](/img01.webp)
+<p align="center">
+  <img src="/img01.webp" alt="Logo del proyecto" width="300">
+</p>
+
 
 ## 📌 **Descripción**
 
