@@ -23,8 +23,8 @@ Este curso **no trata sobre aprender tecnologías basadas en JavaScript**, sino 
 📂 **Estructura del Repositorio**  
 El repositorio está organizado de la siguiente manera:
 
-- 📜 **`/resources/`** → Contiene subcarpetas con el contenido del curso, organizadas por temas.  
 - 📂 **`/examples/`** → Ejemplos de código prácticos para reforzar los conceptos.  
+- 📜 **`/resources/`** → Contiene subcarpetas con el contenido del curso, organizadas por temas.  
 - 📜 **`LICENSE`** → Archivo con la licencia del contenido.  
 - 📄 **`README.md`** → Explicación detallada del contenido del repositorio. 
 

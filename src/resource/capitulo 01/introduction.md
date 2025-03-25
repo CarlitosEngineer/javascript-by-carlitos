@@ -1,9 +1,9 @@
 
-# Introducción a JavaScript
+# CAPITULO 01 - Introducción a JavaScript
 
 Al entrar en este camino de la programación, existen cosas que debes saber antes de empezar: conceptos básicos que te ayudarán a aclarar tu mente y a entender con mayor facilidad los temas que veremos más adelante.
 
-## **Conceptos clave que debes aprender antes**
+## Conceptos clave que debes aprender antes
 
 - **Código:** Es una serie de instrucciones escritas en un lenguaje de programación que la computadora ejecuta en orden secuencial para cumplir una tarea específica.  
 
@@ -17,9 +17,7 @@ Al entrar en este camino de la programación, existen cosas que debes saber ante
 
 En este libro, estudiaremos específicamente el lenguaje JavaScript. Por lo tanto, además de aprender fundamentos de programación, profundizaremos en este lenguaje. No es necesario saberlo todo desde el principio, pero sí es fundamental dominar los conceptos más importantes. Así que, antes de continuar, aprendamos qué es JavaScript.  
 
----
-
-## **¿Qué es JavaScript?**  
+## Parte 1 - **What is JavaScript? (¿Qué es JavaScript?)**
 
 JavaScript es un lenguaje de programación que se utiliza principalmente en el desarrollo web. Fue creado por Brendan Eich en 1995.  
 
@@ -46,11 +44,7 @@ JavaScript se caracteriza por ser un lenguaje:
   - Programación orientada a objetos (usando prototipos o clases).  
   - Programación funcional (usando funciones de orden superior).  
 
----
-
-## **Historia de JavaScript**
-
----
+## Parte 2 - **History of JavaScript (Historia de JavaScript)**
 
 ### **1. ¿Quién creó JavaScript y en qué año?**  
 JavaScript fue creado por **Brendan Eich** en **1995**, mientras trabajaba en la empresa **Netscape Communications Corporation**.
@@ -71,7 +65,8 @@ El motor **V8**, desarrollado por **Google**, revolucionó JavaScript en 2008 al
 ### **13. ¿Cómo cambió JavaScript con la llegada de Node.js?**  
 Antes de **Node.js**, JavaScript solo se ejecutaba en el navegador. Con la creación de Node.js en 2009 por **Ryan Dahl**, JavaScript pudo ejecutarse en servidores, permitiendo el desarrollo de aplicaciones backend con alta escalabilidad. Esto impulsó su popularidad en el desarrollo web moderno.
 
-### **14. ¿Qué diferencias clave existen entre JavaScript en el navegador y en el servidor?**  
+### **14. ¿Qué diferencias clave existen entre JavaScript en el navegador y en el servidor?**
+
 | Característica        | JavaScript en el Navegador | JavaScript en el Servidor (Node.js) |
 |----------------------|--------------------------|------------------------------------|
 | **Entorno de ejecución** | Se ejecuta en el navegador | Se ejecuta en el servidor (Node.js) |
@@ -89,9 +84,7 @@ JavaScript ha cambiado completamente la manera en la que se desarrollan aplicaci
 - **Aplicaciones en la nube y Serverless**: JavaScript es ampliamente utilizado en arquitecturas serverless con **AWS Lambda, Firebase Functions, entre otros**.
 - **Evolución de los navegadores**: Los navegadores han optimizado sus motores de JavaScript, permitiendo ejecutar aplicaciones web complejas sin necesidad de instalar software adicional.
 
----
-
-## **Versiones de JavaScript**  
+## Parte 3 - **JavaScript Versions (Versiones de JavaScript)**
 
 ### **1. ¿Qué es ECMAScript y cuál es su relación con JavaScript?**  
 ECMAScript (ES) es el estándar que define las características y el comportamiento de JavaScript. Fue desarrollado por **Ecma International** para garantizar la compatibilidad entre diferentes navegadores y entornos de ejecución.  
@@ -175,7 +168,7 @@ Las actualizaciones y cambios en ECMAScript pueden consultarse en varias fuentes
 
 Revisar regularmente estas fuentes te ayudará a mantenerte actualizado con los últimos cambios en JavaScript.
 
-## **Cómo ejecutar JavaScript**
+## Parte 4 - **How to Run JavaScript (Cómo ejecutar JavaScript)**
 
 ### **1. ¿Dónde y cómo se puede ejecutar código JavaScript?**  
 JavaScript se puede ejecutar en dos tipos de entornos principales:  
