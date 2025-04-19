@@ -12,7 +12,7 @@ rl.question('Ingrese Su opcion: ', (numeroIngresado) => {
   rl.close()
 })
 
-function welcomeMessage () {
+function welcomeMessage() {
   console.log('// ----- // ----- // ----- // ----- // ----- // ----- //')
   console.log('welcome to the menu for create a password.')
   console.log('que tipo de contraseña quieres?')
@@ -22,7 +22,7 @@ function welcomeMessage () {
   console.log('// ----- // ----- // ----- // ----- // ----- // ----- //')
 }
 
-function optionMenu (inputOption) {
+function optionMenu(inputOption) {
   switch (inputOption) {
     case inputOption = 1:
       console.log('1- letras minusculas')

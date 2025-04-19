@@ -8,7 +8,7 @@ const hexdigits = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', '
 const octdigits = ['0', '1', '2', '3', '4', '5', '6', '7']
 const punctuation = ['!', '#', '$', ' % ', ' & ', "'", '(', ')', '*', '+', ',', '-', '.', '/', ':', ';', '<', '=', '>', '?', '@', '[', ']', '^', '_', '`', '{', '|', '}', '~', '"']
 
-function generateAsciiLowercase (ziseWord) {
+function generateAsciiLowercase(ziseWord) {
   let result = ''
   for (let i = 0; i <= ziseWord; i++) {
     result += asciiLowercase[Math.floor(Math.random() * asciiLowercase.length)]
@@ -16,7 +16,7 @@ function generateAsciiLowercase (ziseWord) {
   return result
 }
 
-function generateAsciiUppercase (ziseWord) {
+function generateAsciiUppercase(ziseWord) {
   let result = ''
   for (let i = 0; i <= ziseWord; i++) {
     result += asciiUppercase[Math.floor(Math.random() * asciiUppercase.length)]
@@ -24,7 +24,7 @@ function generateAsciiUppercase (ziseWord) {
   return result
 }
 
-function generatePunctuation (ziseWord) {
+function generatePunctuation(ziseWord) {
   let result = ''
   for (let i = 0; i <= ziseWord; i++) {
     result += punctuation[Math.floor(Math.random() * punctuation.length)]
@@ -32,7 +32,7 @@ function generatePunctuation (ziseWord) {
   return result
 }
 
-function generateHexdigits (ziseWord) {
+function generateHexdigits(ziseWord) {
   let result = ''
   for (let i = 0; i <= ziseWord; i++) {
     result += hexdigits[Math.floor(Math.random() * hexdigits.length)]
@@ -40,7 +40,7 @@ function generateHexdigits (ziseWord) {
   return result
 }
 
-function generateOctdigits (ziseWord) {
+function generateOctdigits(ziseWord) {
   let result = ''
   for (let i = 0; i <= ziseWord; i++) {
     result += octdigits[Math.floor(Math.random() * octdigits.length)]
@@ -48,7 +48,7 @@ function generateOctdigits (ziseWord) {
   return result
 }
 
-function generateDigits (ziseWord) {
+function generateDigits(ziseWord) {
   let result = ''
   for (let i = 0; i <= ziseWord; i++) {
     result += digits[Math.floor(Math.random() * digits.length)]

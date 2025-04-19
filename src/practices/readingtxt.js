@@ -16,17 +16,17 @@ fs.readFile(pathfile, UTF, (err, data) => {
   }
   console.log(data);
   console.log(contar(data));
-  
+
 
 });
 
- function contar(data){
+function contar(data) {
 
   const texto = data.toString();
 
   const cantidad = texto.length;
 
-  return cantidad; 
+  return cantidad;
 }
 
 /* Bibliografia  'realizado por Christian  */
