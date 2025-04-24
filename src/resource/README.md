@@ -1,52 +1,44 @@
-# JavaScript Cheat Sheet (hoja de trucos para JavaScript)
 
-## 2. All about Variables (Todo sobre las variables)
+# **Carlitos Learning JavaScript**
 
-```JavaScript
-var variable1 = "epale"; // Double quotes
-let variable2 = `carlitos ${str}`; // Backtick
-const variable3 = 'javasito'; // Single quotes
-```
-## 7. Loops and Iterations (Bucles e iteraciones)
+<p align="center">
+  <img src="/src/img/img01.webp" alt="Logo del proyecto" width="300">
+</p>
 
-| Comando       | Descripción                                                                                 |
-|---------------|----------------------------------------------------------------------------------------------|
-| `while`       | Ejecuta el bloque **mientras la condición sea verdadera**.                                  |
-| `do...while`  | Ejecuta el bloque **una vez y luego repite si la condición es verdadera**.                  |
-| `for`         | Bucle con **inicio, condición y actualización** integrados en una sola línea.              |
-| `break`       | Termina el bucle **de inmediato**, incluso si la condición aún se cumple.                   |
-| `continue`    | Omite la **iteración actual** del bucle y continúa con la siguiente.                        |
-| `for...in`    | Itera sobre **las propiedades enumerables** de un objeto.                                   |
-| `for...of`    | Itera sobre los **valores de una colección iterable** (arrays, strings, etc.).|
+## 📖 **Content (Contenido)**
 
-```JavaScript
-// ----- // ----- // ----- // ----- // `while`
-while (condición) {
-  // bloque de código
-}
-// ----- // ----- // ----- // ----- // `do...while`
-do {
-// bloque de código
-} while (condición);
-// ----- // ----- // ----- // ----- // `for`
-for (inicialización; condición; actualización) {
-  // bloque de código
-}
-// ----- // ----- // ----- // ----- // `break` / `continue`
-for (let i = 0; i < 10; i++) {
-  if (i === 3) {
-    continue; // omite esta iteración (no imprime 3)
-  }
-  if (i === 7) {
-    break; // termina el bucle cuando i llega a 7
-  }
-  console.log(i);
-}
-```
+Este repositorio cubre desde los fundamentos de JavaScript hasta conceptos avanzados. Algunos de los temas incluyen:
+
+### 1. Introduction to JavaScript (Introducción a JavaScript)
+
+- What is JavaScript? (¿Qué es JavaScript?)
+- History of JavaScript (Historia de JavaScript)
+- JavaScript Versions (Versiones de JavaScript)
+- How to Run JavaScript (Cómo ejecutar JavaScript)
+
+### 2. All about Variables (Todo sobre las variables)
+
+- Variable Declarations (Declaración de variables):
+  - `var`
+  - `let`
+  - `const`
+- Hoisting (Elevación)
+- Variable Naming Rules (Reglas de nombres de variables)
+- Variable Scope (Ámbito de variables):
+  - Block (Bloque)
+  - Function (Función)
+  - Global (Global)
 
 ### 3. Data Types (Tipos de datos)
 
-- Primitive Types (Tipos primitivos) [ `String` , `Undefined` , `Number` , `BigInt` , `Boolean` , `Null` , `Symbol` ]
+- Primitive Types (Tipos primitivos):
+  - `String`
+  - `Undefined`
+  - `Number`
+  - `BigInt`
+  - `Boolean`
+  - `Null`
+  - `Symbol`
 - Objects (Objetos)
   - Built-in Objects (Objetos incorporados)
   - Prototypal Inheritance (Herencia prototipal)
@@ -84,7 +76,10 @@ for (let i = 0; i < 10; i++) {
   - `SameValueZero`
   - `SameValue`
 
+### 7. Loops and Iterations (Bucles e iteraciones)
 
+- `while` , `do...while` , `for`
+- `for...in` , `for...of` , `break` / `continue`
 
 ### 8. Control Flow (Flujo de control)
 
@@ -173,3 +168,6 @@ for (let i = 0; i < 10; i++) {
 - Debugging Issues (Depuración de problemas)
 - Debugging Memory Leaks (Depuración de fugas de memoria)
 - Performance Optimization (Optimización del rendimiento)
+
+```JavaScript
+```
